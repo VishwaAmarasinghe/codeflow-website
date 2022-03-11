@@ -70,14 +70,21 @@ html {
     height: 90vh;
 }
 
-#app {
+.Welcome {
+    font-size: 40px;
     position: relative;
-    top: 40%;
-    font-weight: 500;
-    font-size: 50px;
-
+    top: 30%;
+    color: #000;
+    font-weight: 800;
 }
 
+.text {
+    font-size: 45px;
+    background: -webkit-linear-gradient(-70deg, #f7f1e3 0%, #55E6C1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .icon {
 
@@ -101,13 +108,15 @@ html {
     line-height: 1;
 
 }
-.swiper-button-next, .swiper-button-prev{
+
+.swiper-button-next,
+.swiper-button-prev {
 
     position: relative;
-    bottom:  -10% !important;
-   
-   
-   }
+    bottom: -10% !important;
+
+
+}
 
 iframe {
     width: 100%;
