@@ -94,3 +94,11 @@
       }
     })
   })
+
+  $(function(){
+    $("#nav-placeholder").load("layouts/nav.html");
+  });
+
+  $(function(){
+    $("#footer-placeholder").load("layouts/footer.html");
+  });
