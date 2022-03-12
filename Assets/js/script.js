@@ -102,3 +102,4 @@
   $(function(){
     $("#footer-placeholder").load("layouts/footer.html");
   });
+  
