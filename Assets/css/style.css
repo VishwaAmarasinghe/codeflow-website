@@ -1,10 +1,11 @@
+/*add a padding when scroling*/
 html {
     scroll-padding-top: 100px;
 }
-
+/*navbar*/
 .navbar {
     text-align: center;
-
+   
 }
 
 .navbar-brand {
@@ -58,7 +59,19 @@ html {
     color: #fff !important;
     background-color: #a5b1c2;
 }
+/*navbar*/
+/*placeholder*/
+#preloader{
 
+    background: #fff url("../img/preloader.gif") no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+
+}
+/*placeholder*/
+/*home*/
 #main {
     background-attachment: fixed;
     width: 100%;
@@ -85,7 +98,8 @@ html {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+/*home*/
+/*aboutus*/
 #about-us {
     background: linear-gradient(to right, #c9d6ff, #e2e2e2);
 }
@@ -132,7 +146,8 @@ html {
 
 
 }
-
+/*aboutus*/
+/*contatcus*/
 iframe {
     width: 100%;
     height: 500px;
@@ -189,7 +204,8 @@ iframe {
     }
 
 }
-
+/*contatcus*/
+/*history*/
 #history {
     background: linear-gradient(to right, #ece9e6, #ffffff);
 }
@@ -217,3 +233,4 @@ iframe {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*history*/
