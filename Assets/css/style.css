@@ -1,10 +1,11 @@
+/*add a padding when scroling*/
 html {
     scroll-padding-top: 100px;
 }
-
+/*navbar*/
 .navbar {
     text-align: center;
-
+   
 }
 
 .navbar-brand {
@@ -58,7 +59,19 @@ html {
     color: #fff !important;
     background-color: #a5b1c2;
 }
+/*navbar*/
+/*placeholder*/
+#preloader{
 
+    background: #fff url("../img/preloader.gif") no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+
+}
+/*placeholder*/
+/*home*/
 #main {
     background-attachment: fixed;
     width: 100%;
@@ -71,7 +84,7 @@ html {
 }
 
 .Welcome {
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
     top: 30%;
     color: #000;
@@ -79,11 +92,27 @@ html {
 }
 
 .text {
-    font-size: 45px;
-    background: -webkit-linear-gradient(-70deg, #f7f1e3 0%, #55E6C1 100%);
+    font-size: 55px;
+    background: linear-gradient(to right, #fff, #f8cdda);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+/*home*/
+/*aboutus*/
+#about-us {
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+.content-about {
+    color: #627597;
+    font-size: 25px;
+}
+
+.break-line {
+
+    position: relative;
+    top: 50%;
 }
 
 .icon {
@@ -92,12 +121,12 @@ html {
 }
 
 .num-cards {
-    background-color: #261772 !important;
+    background: linear-gradient(to right, #141e30, #243b55);
     opacity: 0.8;
 }
 
 .bg {
-    background-color: rgba(117, 79, 254);
+    background: linear-gradient(to right, #2e78e7, #8E2DE2);
 
 }
 
@@ -117,7 +146,8 @@ html {
 
 
 }
-
+/*aboutus*/
+/*contatcus*/
 iframe {
     width: 100%;
     height: 500px;
@@ -174,25 +204,33 @@ iframe {
     }
 
 }
-.history-img{
+/*contatcus*/
+/*history*/
+#history {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+.history-img {
     background-image: url("../img/old-paper.jpg");
     width: 100%;
     height: 500px;
     background-size: cover;
 }
-.history-text{
 
-    font-size: 40px;
+.history-text {
+
+    font-size: 50px;
     position: relative;
     top: 30%;
     color: #000;
     font-weight: 800;
 }
 
-.text-h{
-    font-size: 45px;
+.text-h {
+    font-size: 55px;
     background: -webkit-linear-gradient(-70deg, #EAB543 0%, #F8EFBA 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
 }
+/*history*/

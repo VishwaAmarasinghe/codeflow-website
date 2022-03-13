@@ -18,8 +18,9 @@
     currency: false,
     separator: false,
   });
-  //purecounter
+  //purecounter end
 
+ //latest news card swiper
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -34,7 +35,7 @@
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-
+// breakpoints of swiper card (helps to responsive of our website)
     breakpoints: {
       300: {
         slidesPerGroup: 1,
@@ -63,9 +64,10 @@
       },
     },
   });
+// breakpoints of swiper card end
+//latest news card swiper end
 
-
-
+//data-enlargeable (helps to zoom pictures when we add this name our code)
   $('img[data-enlargeable]').addClass('img-enlargeable').click(function () {
     var src = $(this).attr('src');
     var modal;
@@ -94,11 +96,24 @@
       }
     })
   })
+//data-enlargeable end
 
-  $(function(){
+//nav loader
+  $(function () {
     $("#nav-placeholder").load("layouts/nav.html");
   });
+//nav loader end
 
-  $(function(){
+//footerloader
+  $(function () {
     $("#footer-placeholder").load("layouts/footer.html");
   });
+//fotter loader end
+
+//preloader
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load",function(){
+    loader.style.display = "none";
+  })
+  //preloader end

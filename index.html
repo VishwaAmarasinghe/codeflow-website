@@ -6,51 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>St'Anthony's college</title>
-
+<!-- css file-->
     <link rel="stylesheet" href="Assets/css/style.css">
-
+<!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+<!--font-awsome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!--favicon-->
+    <link rel="shortcut icon" type="image/jpg" href="Assets/img/favicon.ico">
+
+<!--purecounter-->    
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<!--swiper js-->  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!--google library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 
 <body>
+    <!--preloader-->
+    <div id="preloader"></div>
+    <!--preloader-->
+    <!--nav placeholder-->
     <div id="nav-placeholder">
     </div>
+    <!--nav placeholder-->
+
+   <!-- parallax effect-->
     <section style="height:auto; padding-top:100px;" id="Home">
+        
         <div id="main">
 
             <div class="Welcome text-center">
-                Welcome to <br><span class="text">St'Anthony's College.</span>
+                Welcome to <br><span class="text">St.Anthony's College.</span><br><b><a href="History.html"  rel="noopener noreferrer"><button class="btn btn-light fs-4">HISTORY</button></a></b>
             </div>
         </div>
-
+   <!-- parallax effect-->
 
     </section>
-
-    <section id="about-us" style="height:auto;">
+ <!-- about us section-->
+    <section id="about-us" style="height:auto;" class="text-dark">
         <div id="about-scl">
             <center>
                 <h1 class="about-heading pt-5 text-center"><b> About Us</b></h1>
-                <hr class="w-25 text-primary" size="5">
+                <i class="fas fa-ellipsis-h fs-2"></i>
             </center>
             <center>
                 <br><br>
-                <h3 class="about-us-title"><b> About Our School</b></h3>
+                <h3 class="about-us-title"><b> About Our School</b></h3><br>
 
 
                 <div class="container">
                     <div class="row d-flex">
-                        <p class="text-center p-5 pt-0 mt-0">
+                        <!--paragraph about school-->
+                        <p class="text-center p-5 pt-0 mt-0 content-about">
                             <b>
                                 St. Anthony's College, Kandy is a Roman Catholic School in Kandy, Sri Lanka. The college
                                 was established in 1854 by the Franciscan missionary, Felice Zoppi. The college is under
@@ -59,6 +73,8 @@
                                 parliamentarians have graduated from the college.
                             </b>
                             <br><br><br></p>
+                         <!--paragraph about school---
+                          <!--details of students and teachers-->
                         <div class="row text-light">
                             <div class="col-md-6">
                                 <div class="card num-cards d-flex justify-content-center align-items-center p-4 mb-4 ">
@@ -104,10 +120,11 @@
 
 
                         </div>
-
+                        <!--details of students and teachers-->
                     </div>
                 </div><br><br>
             </center>
+              <!--vision and mission-->
             <center>
                 <div class="bg p-5 m-5 rounded-3 mb-5 text-light">
                     <div class="container">
@@ -140,10 +157,11 @@
 
                 </div>
             </center>
+            <!--vision and mission-->
         </div>
 
-
-        <div id="latest-news">
+<!--latest news-->
+        <div id="latest-news" class="text-dark">
             <br><br><br>
             <center>
                 <h3 class="news"><b>Latest News</b></h3><br><br>
@@ -157,8 +175,8 @@
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
 
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/271711661_7412059558811476_1894826192135052309_n.jpg?stp=dst-jpg_p843x403&_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=AHgwFgyRia0AX8KOB7p&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT-BKDREiGH64quH-G2njSLoHo3RGdBn1OO_Yj-jPgH0Ow&oe=622BC8BB"
-                                    data-enlargeable class="card-img-top" alt="...">
+                                <img src="Assets/img/l-n-1.jpg"
+                                    data-eGdBn1OO_Yj-jPgH0Ow&oe=622BC8BBnlargeable class="card-img-top" alt="...">
 
 
                                 <div class="card-body">
@@ -173,7 +191,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/274727532_7702739376410158_8472430467230496063_n.jpg?stp=dst-jpg_p843x403&_nc_cat=109&ccb=1-5&_nc_sid=a26aad&_nc_ohc=6jUBtQjDfPgAX8R-g6Q&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT9-aa5Kqrr5qX8_9_ntGlqOGgsLugQFqOheziChLf6lcQ&oe=622A00D7"
+                                <img src="Assets/img/l-n-2.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Being named a presidential scout is indeed one of the highest
@@ -188,7 +206,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/273980875_7653162588034504_5230015215892026274_n.jpg?stp=dst-jpg_p843x403&_nc_cat=102&ccb=1-5&_nc_sid=a26aad&_nc_ohc=uSQfngmZatgAX90zPZU&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT8AZx3ji4lpCU8UgDKxonRzuII8gajMwIj-I0EIp8xWTw&oe=622AF1C8"
+                                <img src="Assets/img/l-n-3.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Appointed a new captain and vice-captain for the 1st XI cricket
@@ -201,7 +219,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/272960750_7575501762467254_1113675458628118662_n.jpg?stp=dst-jpg_p600x600&_nc_cat=102&ccb=1-5&_nc_sid=a26aad&_nc_ohc=8oO8mOKFgzsAX9p_OwL&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT84RC7aYBIGf2BV3EUw9SqyJ-ZHhKyL8U-ztiCjb4DJdg&oe=622B61C9"
+                                <img src="Assets/img/l-n-4.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
 
 
@@ -220,7 +238,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/272274724_7497200206964077_837078393826490583_n.jpg?stp=dst-jpg_p843x403&_nc_cat=102&ccb=1-5&_nc_sid=a26aad&_nc_ohc=DvTHuhH4WGwAX8IUD86&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT8c3R57Qusx7U55cU_GX3YxOoJGAE7FZcnTJWmOliOjFQ&oe=622B715D"
+                                <img src="Assets/img/l-n-5.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">The Sri Lanka U19 team clinched their third consecutive win in
@@ -234,7 +252,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/271745854_7417637404920358_8370756793883291426_n.jpg?stp=dst-jpg_p843x403&_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Sb1_hBt2KMwAX8Y5OzH&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT8DJfNlXB9Z_TVQvj4Dn2DHQ_7Pbp2vCAMdFR0_QOd-HA&oe=622B6BF7"
+                                <img src="Assets/img/l-n-6.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Congratulations! Mast. B.W.K.M. Mendis on being awarded the
@@ -247,7 +265,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card" style="width: 18rem;">
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/271669757_7409944822356283_1356288598522175568_n.jpg?stp=dst-jpg_p960x960&_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=NmTfGsFHFaEAX9v3Iq4&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT_54Wrp4AcjzeYfqOdwGYLLeKqOXSHxhb3ghcJJxo0yPw&oe=622A4348"
+                                <img src="Assets/img/l-n-7.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">The Antonian computer fraternity hand in hand with the Antonian
@@ -264,7 +282,7 @@
                             <div class="card" style="width: 18rem;">
 
 
-                                <img src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/271134591_7369415273075905_5517188845167575323_n.jpg?stp=dst-jpg_p843x403&_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=HNFeBrJD0CEAX-PWgp0&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT8E2E0GYhYi6gjTD6zdWmUr5QbZwrMBpr487P7wqDUqbw&oe=622AEE43"
+                                <img src="Assets/img/l-n-8.jpg"
                                     data-enlargeable class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">With the U19 Asia Cup done and dusted, the greatest challenge
@@ -282,31 +300,37 @@
                 </div>
                 <br><br><a href="https://www.facebook.com/antonianmediaunit/" target="_blank"
                     rel="noopener noreferrer"><button type="button" class="btn btn-outline-primary">More
-                        News</button></a>
+                        News</button></a><br><br>
             </center>
 
 
         </div>
-    </section><br><br>
+        <!--latest news-->
+    </section>
+    <!-- contact us-->
     <section id="contact">
         <div class="row contact pb-5">
             <h1 class="title text-center"><br><b>Contact Us</b></h1><br><br><br><br>
+
             <center>
+                <i class="fas fa-ellipsis-h fs-2" width="60px"></i>
                 <br><br>
-                <div class="map"><iframe
+                <div class="map">
+                       <!-- ggoogle map--><iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.1727493303795!2d80.62644974299485!3d7.322606511167173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3680c732d40c9%3A0x79aa0d16eecbae25!2sSt.%20Anthony&#39;s%20College!5e1!3m2!1sen!2slk!4v1646745926314!5m2!1sen!2slk"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                     <!-- ggoogle map--></div>
 
         </div>
         </center>
 
         <center>
             <div class="row main shadow">
-
+ <!--School departmants details-->
                 <div class="col-lg-6 father"><br><br><br>
-                    <h3><b>Rev.Fr.Principle</b></h3>
+                    <h3><b>Rev.Fr.Principal</b></h3>
                     <div class="details fs-5">
-                        Rev.Fr.Principle : 081-2213652 <br>
+                        Rev.Fr.Principal : 081-2213652 <br>
                         Fax: 081-2213559 <br>
                         E-mail: sackkandy@slnet.lk
                     </div>
@@ -325,40 +349,47 @@
 
 
                 </div>
+                 <!--School departmants details-->
+                  <!--contatc us form-->
                 <div class="col-lg-6 ">
-                    <form class="form-main"><br><br><br>
-                        <div class="mb-3">
+                    <form class="form-main me-5" action="https://formsubmit.co/dvpamarasinghe31@gmail.com" method="POST"><br><br><br>
+                        <div class="mb-3 ">
                             <label for="exampleFormControlInput1" class="form-label fs-3">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@example.com" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label fs-3">Massage</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="massage" rows="3" name="massage"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary w-25">Submit</button>
                     </form>
                     <br><br><br>
                 </div>
+
                 <center>
                     <img src="Assets/img/contact.svg" alt="" style="width:40%;" class="contact-img">
                     <br><br></center>
-
+            <!--contatc us form-->
             </div>
         </center>
     </section>
-
+       <!-- contact us-->
+       <!--footer placeholder-->
     <div id="footer-placeholder">
     </div>
-
+     <!--footer placeholder-->
+      <!--script file-->
     <script src="Assets/js/script.js"></script>
-
+ <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+     <!--font-awsome-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
         integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
 
 </html>
