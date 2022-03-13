@@ -95,11 +95,10 @@
     })
   })
 
-  $(function(){
+  $(function () {
     $("#nav-placeholder").load("layouts/nav.html");
   });
 
-  $(function(){
+  $(function () {
     $("#footer-placeholder").load("layouts/footer.html");
   });
-  

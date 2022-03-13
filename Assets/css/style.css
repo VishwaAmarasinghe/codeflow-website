@@ -85,18 +85,22 @@ html {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#about-us{
+
+#about-us {
     background: linear-gradient(to right, #c9d6ff, #e2e2e2);
 }
-.content-about{
-    color:  #627597;
+
+.content-about {
+    color: #627597;
     font-size: 25px;
 }
-.break-line{
+
+.break-line {
 
     position: relative;
     top: 50%;
 }
+
 .icon {
 
     font-size: 60px;
@@ -185,16 +189,19 @@ iframe {
     }
 
 }
-#history{
-    background: linear-gradient(to right, #ece9e6, #ffffff); 
+
+#history {
+    background: linear-gradient(to right, #ece9e6, #ffffff);
 }
-.history-img{
+
+.history-img {
     background-image: url("../img/old-paper.jpg");
     width: 100%;
     height: 500px;
     background-size: cover;
 }
-.history-text{
+
+.history-text {
 
     font-size: 50px;
     position: relative;
@@ -203,10 +210,10 @@ iframe {
     font-weight: 800;
 }
 
-.text-h{
+.text-h {
     font-size: 55px;
     background: -webkit-linear-gradient(-70deg, #EAB543 0%, #F8EFBA 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
 }
